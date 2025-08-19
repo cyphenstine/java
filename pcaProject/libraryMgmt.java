@@ -18,6 +18,19 @@ class Book{
         this.availability = true;
     }
     
+    // getter methods:
+
+    public String getTitle(){
+        return this.title;
+    }
+    public String getAuthor(){
+        return this.author;
+    }
+    public boolean idAvailable(){
+        return this.availability;
+    }
+
+    // setter 
 }
 
 class Members{
@@ -28,6 +41,13 @@ class Members{
     Members(String name, String userID){
         this.name = name;
         this.userID = userID;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+    public String getUserID(){
+        return this.userID;
     }
 }
 
