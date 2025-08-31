@@ -1,4 +1,6 @@
-public class Strings {
+package string;
+
+public class JavaStrings {
     public static void main (String [] args) {
         
     }
