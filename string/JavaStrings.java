@@ -1,5 +1,3 @@
-package string;
-
 public class JavaStrings {
     public static void main (String [] args) {
         // both sre pointing to the same memory location, as both contain the same string even though both are different variables.
