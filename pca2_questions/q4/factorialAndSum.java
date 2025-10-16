@@ -1,9 +1,14 @@
+import java.util.Scanner;
+
 class Main
 {
   public static void main(String[] args)
   {
+    Scanner input  = new Scanner(System.in);
+    System.out.print("Enter a number: ");
+    int userInput = input.nextInt();
     //System.out.println();
-    System.out.println(sumOfFactorialNumbers(factorial(5)));
+    System.out.println(sumOfFactorialNumbers(factorial(userInput)));
   }
   
   static int factorial(int number)
