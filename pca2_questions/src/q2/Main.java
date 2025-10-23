@@ -1,5 +1,8 @@
+// Given a string, return a new string where every delay word “not” followed by “bad” is replaced by “good”. E.g. “This movie is not that bad!” → “This movie is good!”
 package q2;
+
 import java.util.Scanner;
+
 public class Main
 {
     public static void main(String[] args)

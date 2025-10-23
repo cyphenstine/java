@@ -1,6 +1,9 @@
+// Check if two strings are anagrams of each other (ignoring case and non-letter characters).
 package q3;
+
 import java.util.Arrays;
 import java.util.Scanner;
+
 public class Main
 {
     public static void main(String[] args)

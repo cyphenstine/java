@@ -1,3 +1,4 @@
+// Given an integer n, compute the sum of digits of n! (factorial).
 package q4;
 
 public class Main
