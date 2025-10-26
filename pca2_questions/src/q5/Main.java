@@ -9,7 +9,8 @@ public class Main
         int arraySize = fillArray(userInput);
         System.out.println("before sorting:");
         showArray(userInput, arraySize);
-
+        insertionSort(userInput);
+        showArray(userInput, arraySize);
     }
 
     public static void showArray(int[] arr, int arraySize)
@@ -41,14 +42,7 @@ public class Main
     {
         if(arr != null)
         {
-            for(int i = 1; i < arr.length; i++)
-            {
-                int temp;
-                int compWithInUnSorted = arr[i];
-                int prevEle = i - 1;
-                while(j >= 0 && )
-            }
-        }
 
+        }
     }
 }
