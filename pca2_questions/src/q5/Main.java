@@ -10,6 +10,7 @@ public class Main
         System.out.println("before sorting:");
         showArray(userInput, arraySize);
         insertionSort(userInput, arraySize);
+        System.out.println("after sorting:");
         showArray(userInput, arraySize);
     }
 
