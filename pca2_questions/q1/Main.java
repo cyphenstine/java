@@ -18,7 +18,9 @@ public class Main
             System.out.print("number for position " + (i + 1) + ": ");
             numbersArray[i] = input.nextInt();
         }
+        input.close();
         Arrays.sort(numbersArray);
         System.out.print(numbersArray[(numbersArray.length) - 2]);
     }
 }
+

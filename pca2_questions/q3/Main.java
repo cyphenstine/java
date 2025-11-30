@@ -13,6 +13,7 @@ public class Main
         String userInput1 = input.nextLine();
         System.out.println("2nd input:");
         String userInput2 = input.nextLine();
+        input.close();
         if(checkIfAnagrams(userInput1, userInput2))
         {
             System.out.println("yes they are anagrams!");

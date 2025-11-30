@@ -10,6 +10,7 @@ public class Main
         System.out.println("Enter your text:");
         Scanner input = new Scanner(System.in);
         String userInput = input.nextLine();
+        input.close();
         System.out.println(fixNotBad(userInput));
     }
     public static String fixNotBad(String userInput)
