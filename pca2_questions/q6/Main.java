@@ -12,6 +12,7 @@ public class Main
         System.out.println("Enter position:");
         Scanner positionInput = new Scanner(System.in);
         int position = positionInput.nextInt();
+        positionInput.close();
         int arraySize = fillArray(array);
         System.out.println("this is the array:");
         showArray(array, arraySize);
@@ -24,6 +25,7 @@ public class Main
         System.out.println("Enter array size:");
         Scanner userInput = new Scanner(System.in);
         int arraySize = userInput.nextInt();
+        userInput.close();
         for(int i = 0; i < arraySize; i++)
         {
             System.out.print("enter for element " + (i + 1) + ": ");

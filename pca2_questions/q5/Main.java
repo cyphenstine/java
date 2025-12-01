@@ -31,6 +31,7 @@ public class Main
         Scanner userInput = new Scanner(System.in);
         System.out.println("Array size: ");
         int arraySize = userInput.nextInt();
+        userInput.close();
         for(int i = 0; i < arraySize; i++)
         {
             System.out.print("enter for element " + (i + 1) + ": ");
