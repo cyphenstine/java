@@ -21,7 +21,7 @@ public class Main {
                 }
             }
         }
-        System.out.println(secondBiggest);
+        System.out.println(secondBiggest)
     }
 }
 
