@@ -42,7 +42,7 @@ public class Main
         }
         else
         {
-            return "you fucking passed empty string!";
+            return "you passed an empty string!";
         }
     }
 }
