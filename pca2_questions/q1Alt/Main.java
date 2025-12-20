@@ -1,5 +1,5 @@
 // second largest number in the array [3,9,8,7,2,3,4,9,4]
-package temp1;
+package q1Alt;
 
 public class Main {
     public static void main(String[] args) {
