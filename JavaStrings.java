@@ -1,6 +1,6 @@
 public class JavaStrings {
     public static void main (String [] args) {
-        // both sre pointing to the same memory location, as both contain the same string even though both are different variables.
+        // both of them are pointing at the same memory location, as both contain the same string even though both are different variables.
         String srt1 = "java";
         String str2 = "java";
 

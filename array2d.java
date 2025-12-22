@@ -18,6 +18,7 @@ class Array2d {
         int marks[][] = new int[row][column];
         Scanner sc = new Scanner(System.in);
 
+        //input:
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < column; j++) {
                 System.out.print(
@@ -28,6 +29,7 @@ class Array2d {
         }
         sc.close();
 
+        //output:
         for (int[] theRow : marks) {
             for (int number : theRow) {
                 System.out.print(number + " ");
