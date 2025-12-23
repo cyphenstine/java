@@ -1,4 +1,4 @@
-public class JavaStrings {
+public class javaStrings {
     public static void main (String [] args) {
         // both of them are pointing at the same memory location, as both contain the same string even though both are different variables.
         String srt1 = "java";

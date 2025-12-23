@@ -1,4 +1,4 @@
-class StringMethods{
+class stringMethods{
     public static void main(String[] args){
         String myFirstName = "Aritra";
         System.out.println(myFirstName.toUpperCase());
